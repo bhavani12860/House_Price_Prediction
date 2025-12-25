@@ -3,7 +3,7 @@ import streamlit as st
 import joblib
 
 # Load trained model
-model = joblib.load('house_price_model.pkl')
+model = joblib.load('xgb_model.jb')
 
 st.title("🏠 House Price Prediction")
 st.write("Enter the details below to predict the house price")
